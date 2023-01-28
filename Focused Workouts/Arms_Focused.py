@@ -1,11 +1,12 @@
 import random
 
 class Arms:
+    
     def __init__(self) -> None:
         
         arms_1 = [
-            "Bicep Curl (3 sets, 10 reps)", 
-            "Tricep Dip (3 sets, 12 reps)", 
+            "EZ Barbell Curl (3 sets, 10 reps)", 
+            "Skull Crusher (3 sets, 12 reps)", 
             "Hammer Curl (3 sets, 8 reps)", 
             "Tricep Pushdown (3 sets, 10 reps)", 
             "Barbell Curl (3 sets, 8 reps)"
@@ -23,8 +24,8 @@ class Arms:
             "Cable Curl (3 sets, 10 reps)", 
             "Tricep Kickarms (3 sets, 12 reps)", 
             "Concentration Curl (3 sets, 8 reps)", 
-            "Tricep Dips (3 sets, 10 reps)", 
-            "Reverse Curl (3 sets, 8 reps)"
+            "Skull Crushers (3 sets, 10 reps)", 
+            "EZ Barbell Curl (3 sets, 8 reps)"
             
             ]
         
@@ -38,7 +39,7 @@ class Arms:
 
         arms_5 = [
             "Dumbbell Curl (3 sets, 10 reps)", 
-            "Tricep Dip (3 sets, 12 reps)", 
+            "Skull Crusher (3 sets, 12 reps)", 
             "EZ Bar Curl (3 sets, 8 reps)", 
             "Tricep Pulldown (3 sets, 10 reps)", 
             "Preacher Curl (3 sets, 8 reps)"
@@ -48,8 +49,8 @@ class Arms:
             "Cable Curl (3 sets, 12 reps)", 
             "Tricep Kickarms (3 sets, 10 reps)", 
             "Concentration Curl (3 sets, 8 reps)", 
-            "Tricep Dips (3 sets, 12 reps)", 
-            "Reverse Curl (3 sets, 10 reps)"
+            "Skull Crushers (3 sets, 12 reps)", 
+            "EZ Barbell Curl (3 sets, 10 reps)"
             ]
 
         arms_7 = [
@@ -62,7 +63,7 @@ class Arms:
 
         arms_8 = [
             "Dumbbell Curl (3 sets, 12 reps)", 
-            "Tricep Dip (3 sets, 10 reps)", 
+            "Skull Crusher (3 sets, 10 reps)", 
             "EZ Bar Curl (3 sets, 8 reps)", 
             "Tricep Pulldown (3 sets, 12 reps)", 
             "Preacher Curl (3 sets, 10 reps)"
@@ -72,8 +73,8 @@ class Arms:
             "Cable Curl (3 sets, 10 reps)", 
             "Tricep Kickarms (3 sets, 12 reps)", 
             "Concentration Curl (3 sets, 8 reps)", 
-            "Tricep Dips (3 sets, 10 reps)", 
-            "Reverse Curl (3 sets, 8 reps)"
+            "Skull Crushers (3 sets, 10 reps)", 
+            "EZ Barbell Curl (3 sets, 8 reps)"
             ]
             
         arms_10 = [
@@ -104,6 +105,6 @@ class Arms:
             arms_workout += item + "\n"
         return arms_workout
 
-Workout2 = Arms()
-print(Workout2.get_arms_workout())
+Workout = Arms()
+print(Workout.get_arms_workout())
         

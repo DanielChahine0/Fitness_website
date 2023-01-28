@@ -1,7 +1,9 @@
 import random
 
 class Chest:
+    
     def __init__(self) -> None:
+
         chest_1 = [
             "Barbell bench press 4 sets of 8-12 reps", 
             "Incline dumbbell press 3 sets of 8-12 reps", 
@@ -103,5 +105,5 @@ class Chest:
             Chest_workout += item + "\n"
         return Chest_workout
 
-Workout = Chest()
-print(Workout.get_chest_workout())
+workout = Chest()
+print(workout.get_chest_workout())
