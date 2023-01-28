@@ -26,7 +26,7 @@ class Person:
         weight = self.weight
         age = self.age
         height = self.height
-        # Since there is more than one formula for the BMR, I will 
+        # Since there is more than one formula for the BMR, I will use
         # --- more than one formula and then calculate the average between them.
         if self.gender == "female":
             BMR1 = 655.1 + (9.563 * weight) + (1.850 * height * 100) - (4.676 * age)
