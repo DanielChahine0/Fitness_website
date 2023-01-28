@@ -19,7 +19,7 @@ class Person:
 
         # BMI formula
         self.BMI = (self.weight) / ((self.height)**2)
-        return self.BMI
+        return round(self.BMI, 2)
 
     # Body Metabolic Rate Method
     def calculateBMR(self):
@@ -42,33 +42,35 @@ class Person:
             return "Invalid"
         
         self.BMR = (BMR1 + BMR2 + BMR3) / 3
-        return self.BMR
+        return round(self.BMR, 2)
 
     # Calories Burnt by Day Method
-    def BurningCalories(self, activity:int):
+    def BurningCalories(self, activity:int=3):
         # This calculator will use numbers (1, 2, 3, 4, 5) to determine
         # --- how many calories are being burnt in a day
         
         # If the person is sedentary (little to no exercise)
         if activity == 1:
-            return self.BMR * 1.2
+            calories = self.BMR * 1.2
         
         # if the person is lightly active (light exercise 1-3 days/week)
         elif activity == 2:
-            return self.BMR * 1.375
+            calories = self.BMR * 1.375
         
         # if the person is modertly active (moderate exercise 3-5 days/week)
         elif activity == 3:
-            return self.BMR * 1.55
+            calories = self.BMR * 1.55
         
         # if the person is very active (hard exercise/sports 6-7 days a week)
         elif activity == 4:
-            return self.BMR * 1.725
+            calories = self.BMR * 1.725
         
         # if the person is extra active (very hard daily exercise and a physical job)
         elif activity == 5:
-            return self.BMR * 1.9
+            calories = self.BMR * 1.9
         
         # if none of the options were chosen
         else:
-            return 0
+            calories = 0
+        
+        return round(calories, 2)
