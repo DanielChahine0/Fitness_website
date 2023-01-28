@@ -2,6 +2,7 @@ import random
 
 class Back:
     def __init__(self) -> None:
+
         back_1 = [
             "Pull-ups (3 sets of 8-12 reps)",
             "Bent-over rows (3 sets of 8-12 reps)",
@@ -100,7 +101,7 @@ class Back:
             10:back_10
         }
     
-    def get_b_workout(self):
+    def get_back_workout(self):
         ran_index2 = random.randint(1, 10)
         back_workout = ""
         for item in self.back_focused[ran_index2]:
@@ -108,4 +109,4 @@ class Back:
         return back_workout
 
 Workout2 = Back()
-print(Workout2.get_b_workout())
+print(Workout2.get_back_workout())

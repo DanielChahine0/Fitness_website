@@ -96,7 +96,7 @@ class Chest:
             10:chest_10
         }
     
-    def get_a_workout(self):
+    def get_chest_workout(self):
         ran_index = random.randint(1, 10)
         Chest_workout = ""
         for item in self.chest_focused[ran_index]:
@@ -104,4 +104,4 @@ class Chest:
         return Chest_workout
 
 Workout = Chest()
-print(Workout.get_a_workout())
+print(Workout.get_chest_workout())
