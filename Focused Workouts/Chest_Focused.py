@@ -1,3 +1,5 @@
+import random
+
 class Chest:
     def __init__(self) -> None:
         chest_1 = [
@@ -93,5 +95,13 @@ class Chest:
             9:chest_9,
             10:chest_10
         }
-
     
+    def get_a_workout(self):
+        ran_index = random.randint(1, 10)
+        Chest_workout = ""
+        for item in self.chest_focused[ran_index]:
+            Chest_workout += item + "\n"
+        return Chest_workout
+
+Workout = Chest()
+print(Workout.get_a_workout())
