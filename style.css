@@ -1,0 +1,21 @@
+.topDiv{
+    background-color: red;
+    text-align: center;
+    height:100px;
+
+}
+
+.body{
+    background-color: black;
+}
+
+hr{
+    border-width: 0;
+    background-color:red;
+
+    height: 10px;
+}
+
+.text1{
+    color:rgba(255, 255, 255, 0.863);
+}
