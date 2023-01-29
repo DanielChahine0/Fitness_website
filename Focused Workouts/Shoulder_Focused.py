@@ -47,7 +47,7 @@ class Shoulder:
         shoulder_6 = [
           "Incline Y Raises (4 sets of 6-10 reps)",
           "Barbell Shoulder Press (3 sets of 8-12 reps)",
-          "Band raises (3 sets of 8-12 reps)"
+          "Band raises (3 sets of 8-12 reps)",
           "Leaning Shoulder Raises (3 sets of 8-12 reps)",
           "Seated Row (3 sets of 8-12 reps)"
 
@@ -58,9 +58,7 @@ class Shoulder:
           "Dumbbell External Rotations (3 sets of 8-12 reps)",
           "Band Raises (3 sets of 8-12 reps)"
           "Overhead Press (3 sets of 8-12 reps)",
-          "Lighter Overhead Press till failure (3 sets of 8-12 reps)"
-
-          
+          "Lighter Overhead Press till failure (3 sets of 8-12 reps)"          
         ]
 
         shoulder_8 = [
@@ -73,19 +71,19 @@ class Shoulder:
         ]
 
         shoulder_9 = [
-          "Band raises (3 sets of 8-12 reps)"
+          "Band raises (3 sets of 8-12 reps)",
           "Incline Y Raises (4 sets of 6-10 reps)",
-          "Upright Rows (3 sets of 8-12 reps)"
-          "Behind-the-neck Barbell Press (3 sets of 8-12 reps)"
+          "Upright Rows (3 sets of 8-12 reps)",
+          "Behind-the-neck Barbell Press (3 sets of 8-12 reps)",
           "Seated Row (3 sets of 8-12 reps)"
           
         ]
 
         shoulder_10 = [
-          "High Pulls (3 sets of 8-12 reps)"
+          "High Pulls (3 sets of 8-12 reps)",
           "Dumbbell Rear-delt Rows (4 sets of 6-10 reps)",
-          "Upright Rows (3 sets of 8-12 reps)"
-          "Seated Barbell Military Press (3 sets of 8-12 reps)"
+          "Upright Rows (3 sets of 8-12 reps)",
+          "Seated Barbell Military Press (3 sets of 8-12 reps)",
           "Front Cable Raise (3 sets of 8-12 reps)"
 
 
